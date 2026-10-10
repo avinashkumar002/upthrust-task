@@ -4,7 +4,7 @@ import logo from "@/assets/images/logo.svg";
 
 export default function Header() {
     return (
-        <header className="sticky top-0 z-50 w-full bg-transparent flex items-center justify-between px-5 py-4 md:px-8 md:py-[19px] lg:px-[72px] lg:py-[20px]">
+        <header className="w-full bg-transparent flex items-center justify-between px-5 py-4 md:px-8 md:py-[19px] lg:px-[72px] lg:py-[20px]">
             <nav aria-label="Primary" className="flex">
                 <Link
                     href="/"
